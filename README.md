@@ -11,6 +11,6 @@
 ####Dissolved oxygen at the cell culture surface can be modulated to near zero or up to 4 discrete levels.
 
 <img src="images/Fig3.png" style="width: 400px;"/>
-#### Oxygen levels influence VEGFA expression in cancer cultures.
+#### Oxygen levels influence VEGFA expression in A594 cells.
 
 
