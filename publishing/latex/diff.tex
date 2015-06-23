@@ -1,4 +1,7 @@
 % Template for PLoS
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL first-submission/paper.tex   Tue Jun 23 10:33:52 2015
+%DIF ADD revision/revision.tex        Tue Jun 23 11:13:39 2015
 % Version 3.1 February 2015
 %
 % To compile to pdf, run:
@@ -153,6 +156,26 @@
 %% END MACROS SECTION
 
 
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
 \begin{document}
 \vspace*{0.35in}
 
@@ -160,8 +183,10 @@
 % Please capitalize all terms in the title except conjunctions, prepositions, and articles.
 \begin{flushleft}
 {\Large
-\textbf\newline{3D-Printed 24-Well Plate Oxygen Control Device - Submission to PLOS ONE}
-}
+\textbf\DIFdelbegin %DIFDELCMD < \newline{3D-Printed 24-Well Plate Oxygen Control Device - Submission to PLOS ONE}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \newline{3D-Printed 24-Well Plate Oxygen Control Device}
+\DIFaddend }
 \newline
 % Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
 \\
@@ -180,13 +205,15 @@ David T. Eddington\textsuperscript{1,*},
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-Recently 3D printing has emerged as a method for directly printing complete microfluidic devices, although printing materials have been limited to oxygen-impermeable materials.
+\DIFdelbegin \DIFdel{Recently }\DIFdelend 3D printing has emerged as a method for directly printing complete microfluidic devices, although printing materials have been limited to oxygen-impermeable materials.
 We demonstrate the addition of gas permeable PDMS (Polydimethylsiloxane) membranes to 3D-printed microfluidic devices as a means to enable oxygen control cell culture studies.
 The incorporation of a 3D-printed device and gas-permeable membranes was demonstrated on a 24-well oxygen control device for standard multiwell plates.
 The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
 With this device, four different oxygen conditions were able to be controlled, and six wells were maintained under each oxygen condition. 
 We demonstrate enhanced transcription of the gene VEGFA (vascular endothelial growth factor A) with decreasing oxygen levels in human lung adenocarcinoma cells.
 This is the first 3D-printed device that can be functionalized to control oxygen in cell culture.
+\DIFaddbegin \DIFadd{This is a test of something I'm adding
+}\DIFaddend 
 
 \linenumbers
 
