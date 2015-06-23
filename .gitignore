@@ -1,1 +1,8 @@
 .DS*
+PLOS-submission-eps-converted-to.pdf
+*.aux
+*.blg
+*.bbl
+*.log
+*.out
+*synctex.gz
