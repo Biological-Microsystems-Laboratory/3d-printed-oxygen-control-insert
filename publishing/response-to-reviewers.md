@@ -20,15 +20,17 @@ Authors' Rebuttal to Reviewers
 Reviewer #1:
 It is a different version of design to control oxygen in cell culture, among some recent efforts. One concern is that the group has published quite a number of papers on oxygen control devices, although it is now through 3d printing. It is important to highlight in front the key improvements.
 
-Authors' rebuttal: 
+**Authors' rebuttal:** An overview of improvements from our previous PDMS cast devices starts on line 51 of the original manuscript.
 
 Also, it is important to compare with some other methods related to 3d printing such as that done recently by Kamei K. et al. (Biomed Microdevices. 2015 Apr;17(2):36). 
 
-Authors' rebuttal:
+**Authors' rebuttal:** 
+The work by Kamei et al. was cited along with several other papers that used 3D printed parts as molds for PDMS devices on line 33 of the original manuscript.
 
 "This is the first 3D-printed device that can be functionalized to control oxygen in cell culture" is a statement which is too strong.
 
-Authors' rebuttal:
+**Authors' rebuttal:** 
+The wording was changed to "This is the first 3D-printed device that *has been* functionalized to control oxygen in cell culture"
 
 ------------------------------
 
