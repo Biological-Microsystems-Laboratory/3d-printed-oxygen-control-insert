@@ -30,3 +30,19 @@ Intensities for each trial (N) will be stored here rather then raw images.
 
 
 End with calibration matrix 24:5 (C:R) and experimental matrix 24:145
+
+Detail Set-up
+------------
+4 CGA 500 two-stage regulators
+2 Omega foating ball adjustable flow meters (FL-5311G rotameters)
+#### Air Tanks
+0%   O2, 5% CO2, bal. N2 tank
+1%   O2, 5% CO2, bal. N2 tank; BI NICDOXC5-K
+5%   O2, 5% CO2, bal. N2 tank; BI NICDOXC1-K
+7.5% O2, 5% CO2, bal. N2 tank; BI NICD5017-K
+10%  O2, 5% CO2, bal. N2 tank; BI NICDOX C21-K
+15%  O2, 5% CO2, bal. N2 tank; BG NICDOXC43-K
+21%  O2, 5% CO2, bal. N2 tank; BI NICDOXC4-K
+Air tank, atomospheric mix
+
+Sodium Sulfite (SS)
