@@ -6,3 +6,4 @@ PLOS-submission-eps-converted-to.pdf
 *.log
 *.out
 *synctex.gz
+.Rhistory
