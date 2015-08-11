@@ -10,6 +10,6 @@ A(:,:,2)= csvread('analyzed-oxygen-values-150807.csv');
 ave = mean(A,3);
 csvwrite('average.csv',ave)
 S = std(A,0,3);
-csvwrite('std.csv',ave)
+csvwrite('std.csv',S)
 %plot(ave)
 errorbar(ave,S)
