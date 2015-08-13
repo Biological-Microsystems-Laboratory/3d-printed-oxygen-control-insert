@@ -6,8 +6,6 @@ Dear Arum Han and reviewers,
 
 Thank you for reviewing our manuscript submission to PLOS ONE. We have made several improvements and clarifications resulting what we hope is a stronger manuscript ready for publication.
 
-If you would like to make changes to your financial disclosure, please include your updated statement in your cover letter.
-
 In addition to this rebuttal letter a clean revised manuscript is submitted as well as a marked-up copy with tracked changes. 
 
 Yours sincerely, 
@@ -20,7 +18,8 @@ Authors' Rebuttal to Reviewers
 Reviewer #1:
 It is a different version of design to control oxygen in cell culture, among some recent efforts. One concern is that the group has published quite a number of papers on oxygen control devices, although it is now through 3d printing. It is important to highlight in front the key improvements.
 
-**Authors' rebuttal:** An overview of improvements from our previous PDMS cast devices starts on line 51 of the original manuscript.
+**Authors' rebuttal:** 
+An overview of improvements from our previous PDMS cast devices starts on line 51 of the original manuscript.
 
 Also, it is important to compare with some other methods related to 3d printing such as that done recently by Kamei K. et al. (Biomed Microdevices. 2015 Apr;17(2):36). 
 
@@ -43,11 +42,13 @@ A sentence was added including the approximate volume of media in the gap.
 
 •	Page 4 – Why was 6 hrs chosen for cell culture? It would seem that the authors could demonstrate a more robust change in expression over the concentrations tested if the experiment was extended to a longer time point, especially considering only the 0% group showed a significant difference in VEGFA expression.
 
-**Authors' rebuttal:** VEGFA is under the transcriptional activity of HIF-1alpha. HIF protein peaks at 4 hr, and so we looked at a time point slightly delayed. By longer time points, the HIF response is actually suppressed, and many transcripts are not increased with longer time points. See Rexius-Hall et al.s' work.
+**Authors' rebuttal:** 
+VEGFA is under the transcriptional activity of HIF-1alpha. HIF protein peaks at 4 hr, and so we looked at a time point slightly delayed. By longer time points, the HIF response is actually suppressed, and many transcripts are not increased with longer time points. See Rexius-Hall et al.s' work.
 
 •	The authors specify concentrations of 21%, 10%, 5%, and 0% were evaluated, however in their Figure 2b, the concentrations appear closer to 13% (not 10%) and 7% (not 5%). Variation of 3% can be considerable in physiological environments and it is unclear if the authors recognize this variation. It is also amplified by the lack of error bars for each group.
 
-Authors' rebuttal:
+**Authors' rebuttal:**
+The data in the original submission was analyzed with a two point calibration. This method correlates intensites to oxygen concentration assuming a linear Stern-Volmer relationship. While standard practice, the two-point calibration suffers from increasing inaacuracy as points are measured further away from the calibration points. 
 
 •	Is sterilization an issue for this device, considering it will be in close contact with biological components? 
 
