@@ -1,7 +1,7 @@
 % Template for PLoS
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL first-submission/paper.tex   Tue Jun 23 10:33:52 2015
-%DIF ADD revision/revision.tex        Tue Jun 23 11:13:39 2015
+%DIF DEL first-submission/paper.tex   Thu Aug 13 14:04:36 2015
+%DIF ADD revision/revision.tex        Thu Aug 13 16:31:27 2015
 % Version 3.1 February 2015
 %
 % To compile to pdf, run:
@@ -211,11 +211,11 @@ The incorporation of a 3D-printed device and gas-permeable membranes was demonst
 The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
 With this device, four different oxygen conditions were able to be controlled, and six wells were maintained under each oxygen condition. 
 We demonstrate enhanced transcription of the gene VEGFA (vascular endothelial growth factor A) with decreasing oxygen levels in human lung adenocarcinoma cells.
-This is the first 3D-printed device that can be functionalized to control oxygen in cell culture.
-\DIFaddbegin \DIFadd{This is a test of something I'm adding
-}\DIFaddend 
+This is \DIFdelbegin \DIFdel{the }\DIFdelend first 3D-printed device \DIFdelbegin \DIFdel{that can be functionalized to control oxygen }\DIFdelend \DIFaddbegin \DIFadd{incorporating gas permeable membranes to facilitate oxygen control }\DIFaddend in cell culture.
+\DIFdelbegin %DIFDELCMD < 
 
-\linenumbers
+%DIFDELCMD < %%%
+\DIFdelend \linenumbers
 
 \section*{Introduction}
 Here we report on the development of 3D-printed microfluidic devices for the control of oxygen in cell culture microenvironments.
@@ -265,7 +265,8 @@ Convection and distribution of the gas is done in the impermeable material, elim
 The device was designed to integrate with a multiwell format, specifically an off-the-shelf 24-well plate. 
 The 24-well plate insert was designed to control gas in 4 rows of 6 wells each. 
 Each of the 4 rows can be controlled independently from an input and also incorporates an integrated distribution network and hose barbs to simplify device operation.
-The pillars extend into each well leaving a $\sim$500 $\mu$m gap for media between the diffusion membrane and the culture surface at the bottom of the well.
+The pillars extend into each well leaving a $\sim$500 $\mu$m gap \DIFdelbegin \DIFdel{for media }\DIFdelend between the diffusion membrane and the culture surface\DIFdelbegin \DIFdel{at the bottom of the well}\DIFdelend \DIFaddbegin \DIFadd{.
+This gap allows space for $\sim$0.17 mL of media}\DIFaddend .
 Diffusion occurs rapidly across this gap allowing control of the dissolved gas environment around the cells. 
 A distribution network stems from the central input that equalizes the flow along each path length by varying the channel width to the proximal, intermediate, and distal wells (Fig.~\ref{fig1}).
 The device also features a pipe within a pipe design so that gas flow enters and leaves the diffusion area in a uniform, and symmetrical flow pattern, which would not be possible with standard lithography and demonstrates the capabilities of 3D printing (Fig.~\ref{fig1}).
@@ -301,7 +302,10 @@ The PDMS membrane was cut to size and attached to the 3D-printed network with an
 Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24-well plate.
 Sensors were prepared as discussed previously \cite{Sinkala2010,Rexius-Hall2014}. 
 Briefly, polystyrene was dissolved in toluene to form a solution to which PtOEPK (Frontier Scientific) was mixed in before spin coating to a thin layer and allowing the toluene to evaporate.
-The intensity of the sensor was measured with via fluorescence microscopy and correlated to the concentration of oxygen with Stern-Volmer analysis.
+\DIFdelbegin \DIFdel{The intensity of the sensor was measured with via fluorescence microscopy and correlated to the concentration of oxygen with }\DIFdelend \DIFaddbegin \DIFadd{Five calibration points were fitted to a two-site model\mbox{%DIFAUXCMD
+\cite{Carraway1991,Wang2014}
+}%DIFAUXCMD
+of the }\DIFaddend Stern-Volmer \DIFdelbegin \DIFdel{analysis}\DIFdelend \DIFaddbegin \DIFadd{relationship which was used to correlate sensor intensities with oxygen concentration}\DIFaddend .
 
 Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, as well as bubble formation in the culture media.
 The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports via a flow meter (FL-5311G; Omega) set at 50 ccm.
@@ -316,7 +320,8 @@ The this entire procedure was repeated three independent times.
 
 \subsection*{Cell culture}
 
-Human lung adenocarcinoma (A549) cells were seeded at 30,000 cells per well in a 24-well plate.
+\DIFaddbegin \DIFadd{The assembled device was sterilized by spraying with 70\% ethanol solution and placed in a biosaftey hood with UV lights overnight.
+}\DIFaddend Human lung adenocarcinoma (A549) cells were seeded at 30,000 cells per well in a 24-well plate.
 Cells were cultured in DMEM supplemented with 10\% FBS.
 After reaching $\sim$70\% confluency, the 24-well insert was placed in the plate and the gases were perfused through the device in the same scheme as in the oxygen characterization.
 Each row of six wells experienced either 0\%, 5\%, 10\% or 21\% \ce{O2}, with 5\% \ce{CO2} and balanced nitrogen.
@@ -326,7 +331,8 @@ The assembly was placed in an incubator at $37\,^{\circ}$C for six hours.
 \subsection*{Quantitative PCR}
 
 Following six hours of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
-Cells in each well were washed twice with PBS, and 300 $\mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
+\DIFaddbegin \DIFadd{No contamination of the culture was observed.
+}\DIFaddend Cells in each well were washed twice with PBS, and 300 $\mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
 The lysate from each well was collected as a sample.
 RNA was extracted according to the PureLink RNA Mini Kit manufacturer’s instructions.
 
@@ -351,18 +357,21 @@ Cell culture experiments were repeated three independent times. Data are express
 \section*{Results}
 \subsection*{Oxygen control}
 Oxygen control in the 24-well insert device was quantified with a platinum-based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
-The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
-A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24-well plate (Fig.~\ref{fig2}). There was little variation in the oxygen levels measured in each of the 6 wells controlled by a single inlet, demonstrating the distribution network worked effectively.
+The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device.
+A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24-well plate\DIFdelbegin \DIFdel{(Fig.
+~\ref{fig2}). }\DIFdelend \DIFaddbegin \DIFadd{.
+}\DIFaddend There was little variation in the oxygen levels measured in each of the 6 wells controlled by a single inlet, demonstrating the distribution network worked effectively.
 
 \begin{figure}[h]
 \caption{
 {\bf Oxygen Characterization.} 
-(A) Time course data of oxygen being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
+\DIFdelbeginFL \DIFdelFL{(A) }\DIFdelendFL Time course data of \DIFaddbeginFL \DIFaddFL{four }\DIFaddendFL oxygen \DIFdelbeginFL \DIFdelFL{being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
 Error bars are the standard deviation N=3.
-(B) Four oxygen conditions are demonstrated in a 24-well plate.
+(B) Four oxygen }\DIFdelendFL conditions are demonstrated in a 24-well plate.
 Each 6-well row of the plate can be controlled independently.  
-Mean N=3 error bars not included.
-}
+\DIFdelbeginFL \DIFdelFL{Mean }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Error bars are the standard deviation }\DIFaddendFL N=\DIFdelbeginFL \DIFdelFL{3 error bars not included.
+}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{3.
+}\DIFaddendFL }
 \label{fig2}
 \end{figure}
 
