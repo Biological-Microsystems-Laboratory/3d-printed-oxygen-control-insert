@@ -7,3 +7,4 @@ PLOS-submission-eps-converted-to.pdf
 *.out
 *synctex.gz
 .Rhistory
+.Rapp.history
