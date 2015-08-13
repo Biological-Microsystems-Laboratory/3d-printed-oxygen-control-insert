@@ -1,7 +1,8 @@
 oxygen_average <- read.csv(file='average.csv', sep=',', header=FALSE)
 A <- seq(from = 0, to = (72*5), by = 5)
 A <- (A/60)
-matplot(A, oxygen_average, type = "l", pch=1, lty=1, col = 1:6, axes=F, ann=F, ylim=c(0,25))
+
+matplot(A, oxygen_average, type = "l", pch=1, lty=1, lwd = 2, col = 1:6, axes=F, ann=F, ylim=c(0,25))
 #legend("topright", legend = 1:24, col=1:6, pch=1)
 axis(1, cex.axis=1.2)
 axis(2, cex.axis=1.2)
