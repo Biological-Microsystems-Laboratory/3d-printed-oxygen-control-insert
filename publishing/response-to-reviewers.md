@@ -48,9 +48,9 @@ VEGFA is under the transcriptional activity of HIF-1alpha. HIF protein peaks at 
 •	The authors specify concentrations of 21%, 10%, 5%, and 0% were evaluated, however in their Figure 2b, the concentrations appear closer to 13% (not 10%) and 7% (not 5%). Variation of 3% can be considerable in physiological environments and it is unclear if the authors recognize this variation. It is also amplified by the lack of error bars for each group.
 
 **Authors' rebuttal:**
-The data in the original submission was analyzed with a two point calibration. This method correlates intensities to oxygen concentration assuming a linear Stern-Volmer relationship. While standard practice, the two-point calibration suffers from increasing inaccuracy as points are measured further away from the calibration points. Characterization data was re-taken with 5 calibration points and analyzed with a two-site Stern-Volmer model to increase accuracy of analyzed data. A new plot replaces figure 2 with error bars.
+The data in the original submission was analyzed with a two point calibration. This method correlates intensities to oxygen concentration assuming a linear Stern-Volmer relationship. While standard practice, the two-point calibration suffers from increasing inaccuracy as points are measured further away from the calibration points. Characterization data was re-taken with 5 calibration points and analyzed with a two-site Stern-Volmer model to increase accuracy of analyzed data. A new plot replaces figure 2 and includes error bars.
 
 •	Is sterilization an issue for this device, considering it will be in close contact with biological components? 
 
 **Authors' rebuttal:**
-We did not observe any contamination. 
+Sterilization was preformed by spraying the device with 70% ethonal and leaving it in a biosaftey hood with UV lights overnight. We did not observe any contamination. This information was added to the manuscript. 

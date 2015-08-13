@@ -274,7 +274,7 @@ The PDMS membrane was cut to size and attached to the 3D-printed network with an
 Oxygen was measured with PtOEPK (Pt(II) Octaethylporphine ketone) planar sensors that were fixed to the bottom of a 24-well plate.
 Sensors were prepared as discussed previously \cite{Sinkala2010,Rexius-Hall2014}. 
 Briefly, polystyrene was dissolved in toluene to form a solution to which PtOEPK (Frontier Scientific) was mixed in before spin coating to a thin layer and allowing the toluene to evaporate.
-The intensity of the sensor was measured with via fluorescence microscopy and correlated to the concentration of oxygen with Stern-Volmer analysis.
+Five calibration points were fitted to a two-site model\cite{Carraway1991,Wang2014} of the Stern-Volmer relationship which was used to correlate sensor intensities with oxygen concentration.
 
 Gas was pulled through the device with negative pressure as a precaution to avoid bulging or detaching membranes, as well as bubble formation in the culture media.
 The outlet ports were connected to a water aspirator which pulled gas through the device from the inlet ports via a flow meter (FL-5311G; Omega) set at 50 ccm.
@@ -289,6 +289,7 @@ The this entire procedure was repeated three independent times.
 
 \subsection*{Cell culture}
 
+The assembled device was sterilized by spraying with 70\% ethanol solution and placed in a biosaftey hood with UV lights overnight.
 Human lung adenocarcinoma (A549) cells were seeded at 30,000 cells per well in a 24-well plate.
 Cells were cultured in DMEM supplemented with 10\% FBS.
 After reaching $\sim$70\% confluency, the 24-well insert was placed in the plate and the gases were perfused through the device in the same scheme as in the oxygen characterization.
@@ -299,6 +300,7 @@ The assembly was placed in an incubator at $37\,^{\circ}$C for six hours.
 \subsection*{Quantitative PCR}
 
 Following six hours of oxygen modulation, the 24-well oxygen control insert was removed and culture media was aspirated.
+No contamination of the culture was observed.
 Cells in each well were washed twice with PBS, and 300 $\mu$L of a lysis solution consisting of 10 $\mu$L of $\beta$-mercaptoethanol (Sigma Aldrich) per 1 mL of lysis buffer (PureLink RNA Mini Kit; Invitrogen) was added to each well.
 The lysate from each well was collected as a sample.
 RNA was extracted according to the PureLink RNA Mini Kit manufacturer’s instructions.
@@ -324,17 +326,16 @@ Cell culture experiments were repeated three independent times. Data are express
 \section*{Results}
 \subsection*{Oxygen control}
 Oxygen control in the 24-well insert device was quantified with a platinum-based (PtOEPK) planar oxygen sensor placed at the bottom of the well, as shown in Fig.~\ref{fig2}.
-The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device. 
-A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24-well plate (Fig.~\ref{fig2}). There was little variation in the oxygen levels measured in each of the 6 wells controlled by a single inlet, demonstrating the distribution network worked effectively.
+The device reaches steady state in 30 minutes and can then hold the oxygen level near 0\% \ce{O2} indefinitely, while 95\% \ce{N2}, 5\% \ce{CO2} is pumped through the device.
+A different gas condition can be used in each separate iteration of the 6-well unit allowing 6 technical replicates of up to 4 different gas conditions in one 24-well plate.
+There was little variation in the oxygen levels measured in each of the 6 wells controlled by a single inlet, demonstrating the distribution network worked effectively.
 
 \begin{figure}[h]
 \caption{
 {\bf Oxygen Characterization.} 
-(A) Time course data of oxygen being evacuated from the culture area as 0\% oxygen gas is perfused through the device.
-Error bars are the standard deviation N=3.
-(B) Four oxygen conditions are demonstrated in a 24-well plate.
+Time course data of four oxygen conditions are demonstrated in a 24-well plate.
 Each 6-well row of the plate can be controlled independently.  
-Mean N=3 error bars not included.
+Error bars are the standard deviation N=3.
 }
 \label{fig2}
 \end{figure}
