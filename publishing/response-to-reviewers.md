@@ -1,6 +1,6 @@
 PONE-D-15-17915
 
-3D-Printed 24-Well Plate Oxygen Control Device
+A 3D-Printed Oxygen Control Insert for a 24-Well Plate
 
 PLOS ONE
 
@@ -28,7 +28,7 @@ An overview of improvements from our previous PDMS cast devices starts on line 5
 Also, it is important to compare with some other methods related to 3d printing such as that done recently by Kamei K. et al. (Biomed Microdevices. 2015 Apr;17(2):36). 
 
 * **Authors' rebuttal:** 
-The work by Kamei et al. was cited along with several other papers that used 3D printed parts as molds for PDMS devices on line 33 of the original manuscript, now line 46 of the revised manuscipt.
+The work by Kamei et al. was cited along with several other papers that used 3D printed parts as molds for PDMS devices on line 33 of the original manuscript, now line 46 of the revised manuscript.
 
 "This is the first 3D-printed device that can be functionalized to control oxygen in cell culture" is a statement which is too strong.
 
@@ -47,7 +47,7 @@ A sentence was added including the approximate volume of media in the gap. See l
 Page 4 – Why was 6 hrs chosen for cell culture? It would seem that the authors could demonstrate a more robust change in expression over the concentrations tested if the experiment was extended to a longer time point, especially considering only the 0% group showed a significant difference in VEGFA expression.
 
 * **Authors' rebuttal:** 
-VEGFA is under the transcriptional activity of HIF-1alpha. HIF protein peaks at 4 hr, and so we looked at a time point slightly delayed. By longer time points, the HIF response is actually suppressed, and many transcripts are not increased with longer time points. See Rexius-Hall et al.s' work, citation 44.
+VEGFA is under the transcriptional activity of HIF-1alpha. The time course of HIF-1alpha protein levels in A549 cells demonstrates maximal protein levels at 4 h and a steep decrease in expression by 16 h. Based on the known time course, we looked at a time point slightly delayed from the 4 h peak to account for transcription of the downstream target gene of interest (VEGFA). At longer time points, HIF protein expression is actually suppressed, and many transcripts are not increased with extended duration. This additional information was added along with a citation starting at line 182.
 
 The authors specify concentrations of 21%, 10%, 5%, and 0% were evaluated, however in their Figure 2b, the concentrations appear closer to 13% (not 10%) and 7% (not 5%). Variation of 3% can be considerable in physiological environments and it is unclear if the authors recognize this variation. It is also amplified by the lack of error bars for each group.
 
@@ -57,4 +57,4 @@ The data in the original submission was analyzed with a two point calibration. T
 Is sterilization an issue for this device, considering it will be in close contact with biological components? 
 
 * **Authors' rebuttal:**
-Sterilization was preformed by spraying the device with 70% ethonal and leaving it in a biosaftey hood with UV lights overnight. We did not observe any contamination. This information was added to the manuscript. See lines 131, and 141. 
+Sterilization was preformed by spraying the device with 70% ethanol and leaving it in a biosaftey hood with UV lights overnight. We did not observe any contamination. This information was added to the manuscript. See lines 131, and 141. 

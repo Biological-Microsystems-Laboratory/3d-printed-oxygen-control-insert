@@ -1,7 +1,7 @@
 % Template for PLoS
 %DIF LATEXDIFF DIFFERENCE FILE
 %DIF DEL first-submission/paper.tex   Thu Aug 13 14:04:36 2015
-%DIF ADD revision/revision.tex        Thu Aug 13 16:31:27 2015
+%DIF ADD revision/revision.tex        Fri Aug 14 15:17:56 2015
 % Version 3.1 February 2015
 %
 % To compile to pdf, run:
@@ -185,7 +185,7 @@
 {\Large
 \textbf\DIFdelbegin %DIFDELCMD < \newline{3D-Printed 24-Well Plate Oxygen Control Device - Submission to PLOS ONE}
 %DIFDELCMD < %%%
-\DIFdelend \DIFaddbegin \newline{3D-Printed 24-Well Plate Oxygen Control Device}
+\DIFdelend \DIFaddbegin \newline{A 3D-Printed Oxygen Control Insert for a 24-Well Plate}
 \DIFaddend }
 \newline
 % Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
@@ -211,7 +211,7 @@ The incorporation of a 3D-printed device and gas-permeable membranes was demonst
 The direct printing allows integrated distribution channels and device geometries not possible with traditional planar lithography.
 With this device, four different oxygen conditions were able to be controlled, and six wells were maintained under each oxygen condition. 
 We demonstrate enhanced transcription of the gene VEGFA (vascular endothelial growth factor A) with decreasing oxygen levels in human lung adenocarcinoma cells.
-This is \DIFdelbegin \DIFdel{the }\DIFdelend first 3D-printed device \DIFdelbegin \DIFdel{that can be functionalized to control oxygen }\DIFdelend \DIFaddbegin \DIFadd{incorporating gas permeable membranes to facilitate oxygen control }\DIFaddend in cell culture.
+This is the first 3D-printed device \DIFdelbegin \DIFdel{that can be functionalized to control oxygen }\DIFdelend \DIFaddbegin \DIFadd{incorporating gas permeable membranes to facilitate oxygen control }\DIFaddend in cell culture.
 \DIFdelbegin %DIFDELCMD < 
 
 %DIFDELCMD < %%%
@@ -239,6 +239,7 @@ Substrate options include many proprietary formulations which have been successf
 New techniques for using 3D-printed molds to produce devices\cite{Mcdonald2002,Gregory2013,King2014,Comina2014a,Kamei2015} are also being developed, including fugitive ink methods\cite{Therriault2003,Miller2012,Bhargava2015}.
 To date, there are no widely available methods or materials to facilitate direct printing of gas-permeable materials, although this area is actively being explored\cite{Femmer2014a}.
 Microfluidic cell culture devices are most commonly cast in PDMS as it is a convenient material for cell studies due to its biocompatibility, optical properties, and gas permeability, facilitating oxygen control of cell environments\cite{Sia2003,Brennan2014}.
+\DIFaddbegin \DIFadd{In this study, a larger 24 well version was developed and optimized which includes several key improvements over the previous 6-well version.}\DIFaddend 
 
 Oxygen control in cells studies is often overlooked by researchers, but important for mimicking conditions experienced by cells in vivo.
 Typically cell culture studies are performed at 21\% oxygen, atmospheric oxygen conditions, although levels that cells experience in vivo are less than 21\% \cite{Brennan2014}.
@@ -248,7 +249,7 @@ Hypoxia is known to alter the transcription of many genes which are under the ac
 To better study the role of oxygen levels in cancer gene expression, a gas controlled culture system is required.
 
 Previously, we developed multiwell inserts for 6-well plates that controlled oxygen in a standard off-the shelf well plate \cite{Oppegard2009, Oppegard2010}.
-These devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
+These \DIFaddbegin \DIFadd{6-well }\DIFaddend devices were completely cast from PDMS and fabricated in a multiple bonding procedure.
 In addition, tubing was used to connect each pillar which became quite cumbersome when moving to a newer 24-well version.
 Utilizing 3D printing for the fabrication allowed further features to be incorporated such as integrated distribution channels to eliminate the connection tubings between wells and hose barbs for better tubing connections, while eliminating fabrication time and failure rate.
 Although available 3D printable materials are gas-impermeable, the addition of a PDMS membrane following printing of the passive microfluidic network is a simple addition allowing gas transfer. 
@@ -382,8 +383,16 @@ Measurement of relative gene expression confirmed biological responsiveness of c
 The device’s ability to control the gas environment was demonstrated with hypoxia-induced upregulation of VEGFA mRNA in the A549 cells (Fig.~\ref{fig3}).  Quantitative PCR showed a significant increase in the relative gene expression of VEGFA in wells exposed to 0\% \ce{O2} for 6 hours as compared to 21\% \ce{O2}. Hypoxia-induced alterations in gene expression usually indicate a HIF-transduced hypoxic signal in cells.
 When a HIF transcription factor undergoes nuclear translocation, it can initiate transcription of genes by binding to the hypoxia response element (HRE)\cite{Lee2004} on its target genes.
 VEGFA has previously been shown to have a functional HRE, and upregulation has been observed in A549 cells under hypoxic conditions\cite{RohrerBley2011}.
+\DIFdelbegin %DIFDELCMD < 
 
-\begin{figure}[h]
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \DIFadd{The 6 h time point was chosen based on the HIF-1$\alpha$ timecourse in A549 cells. 
+HIF-1$\alpha$ protein levels are maximal at 4 h and steeply decrease by 16 h\mbox{%DIFAUXCMD
+\cite{Li2006}
+}%DIFAUXCMD
+. 
+Based on the known time course, we looked at a time point slightly delayed from the 4 h peak to account for transcription of the downstream target genes.
+}\DIFaddend \begin{figure}[h]
 \caption{
 {\bf PCR Data.}  VEGFA expression in A549 cells after exposure to different oxygen conditions set-up by the insert device. Data are expressed as mean $\pm$ SD, N=3.
 }
@@ -460,7 +469,7 @@ In addition, PDMS fabrication would be too time consuming, expensive, and the fa
 %\label{S1_Table}
 %{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac %ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur %pellentesque.
 
-\section*{Acknowledgments}
+%\section*{Acknowledgments}
 %This work funded by NSF 1253060.
 
 \nolinenumbers
